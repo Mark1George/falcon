@@ -266,3 +266,134 @@ div.ThemeMenuBar1MenuSplit
    background-color: inherit;
    border-right: 1px solid #C0C0C0;
 }
+
+/* Responsive Design for Mobile Devices */
+@media screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+  }
+  
+  .logo {
+    width: 100%;
+    max-width: 241px;
+    height: auto;
+    margin: 10px auto;
+    text-align: center;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .social {
+    position: static;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    float: none;
+  }
+  
+  .search {
+    width: 100%;
+    max-width: 145px;
+    margin: 10px auto;
+  }
+  
+  .menutop {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+  
+  .leftline,
+  .rightline {
+    display: none;
+  }
+  
+  .sidebar {
+    width: 100%;
+    float: none;
+    margin: 10px 0;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  .topimg {
+    width: 100%;
+    margin: 10px 0;
+    float: none;
+  }
+  
+  .topimg img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    width: 100%;
+    float: none;
+    margin: 10px 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  .contentp {
+    width: 100%;
+    float: none;
+    margin: 10px 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  .footer {
+    width: 100%;
+    height: auto;
+    padding: 20px 10px;
+  }
+  
+  .horizontal {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .auto-style1 {
+    width: 100%;
+    float: none;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  /* Make images responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Adjust table layouts for mobile */
+  table {
+    width: 100% !important;
+    display: block;
+    overflow-x: auto;
+  }
+  
+  /* Menu adjustments */
+  .ThemeMenuBar1Menu td {
+    padding: 5px;
+  }
+}
