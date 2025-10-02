@@ -137,3 +137,23 @@
 	width:15px;
 	height:6px;
 }
+
+/* Responsive Design for Mobile Devices */
+@media screen and (max-width: 768px) {
+	#wowslider-container1 { 
+		width: 100%;
+		max-width: 100%;
+	}
+	
+	#wowslider-container1 .ws_images{
+		width: 100%;
+		height: auto;
+		max-height: 316px;
+	}
+	
+	#wowslider-container1 .ws_images img{
+		width: 100%;
+		height: auto;
+		max-width: 100%;
+	}
+}
